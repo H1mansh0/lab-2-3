@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<h2>{{ the_title }}</h2>
+
+<p>Enter the name of artist:</p>
+<table>
+    <tr>
+        <td>Name</td>
+        <td>{{ the_name }}</td>
+    </tr>
+</table>
+
+{{ the_results }}
+{% endblock %}
